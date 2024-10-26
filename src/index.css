@@ -1,0 +1,93 @@
+body{
+  background-color: darkgrey;
+
+}
+.to-do-list
+{
+font-family: sans-serif;
+text-align: center;
+margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+  color: aliceblue;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: azure;
+  border: none;
+  border-radius: 5;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+
+}
+.Add-Button{
+  /* padding-right: 20px; */
+  margin-left: 3px;
+  background-color: rgb(90, 16, 187);
+  font-size: 27px;
+  border-radius: 10px;
+  
+}
+.Add-Button:hover{
+  background-color: rgb(90, 16, 167);
+}
+.Delete-Button{
+  background-color: black;
+  margin-right: 8px;
+}
+.Delete-Button:hover{
+  /* background-color: rgb(138, 13, 13); */
+  background-color: rgb(218, 18, 18);
+}
+.Up-Button{
+  background-color: rgb(13, 118, 216);
+}
+.Up-Button:hover{
+  /* background-color: rgb(19, 97, 187); */
+  background-color: rgb(8, 48, 95);
+  
+  
+}
+.Down-Button{
+  background-color: rgb(13, 118, 216);
+}
+.Down-Button:hover{
+  background-color: rgb(8, 48, 95);}
+  
+input[type="text"]{
+  font-size: 1.6rem;
+  size: 10px;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+  align-items: center;
+}
+ol{
+  padding: 0%;
+
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsla(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+}
+.text{
+  flex:1;
+}
+.Delete-Button, .UP-Button
+{
+padding: 8px 12px;
+font-size: 1.4rem;
+margin-left: 10px;
+}
